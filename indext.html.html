@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Membuat Layout Web</title>
+<link href="style.css" rel="stylesheet" type="text/css"
+media="all" />
+</head>
+<body>
+<div id="container">
+ <div id="content">
+ <p>&nbsp;</p>
+</div>
+<div id="right">
+ <h2 class="member">Member Login</h2>
+ <form name="memberLogin" action="#" method="post">
+ <input type="text" name="name" class="txtBox" value="-namaanda-" />
+ <input type="password" name="name2" class="txtBox" value="-
+password-" />
+ <a href="#">Login</a>
+ <input type="submit" name="login" value="" class="login" />
+ <br class="spacer" />
+ </form>
+ <p class="bawah"></p>
+ <h2 class="categories">Categories</h2>
+ <ul>
+ <li><a href="#">Download</a></li>
+ <li class="noImg"><a href="#">Berita</a><br class="spacer"
+/>
+ </li>
+ </ul>
+ </div>
+</body>
+</html>
+<body>
+        <meta charset="=utf-8">
+		<meta name="viewport" content="width, initial-scale=1">
+		<link rel="stylesheet" type"text/css" href="css/stily.css">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type"text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	</head>
+	<body>
+
+		<!-- sidebar -->
+		<input type="checkbox" id="check"> 
+		<div class="sidebar">
+			    <ul>
+				    <li><a href="#Home">Home</a></li>
+					<li><a href="#Profil">Profil</a></li>
+					<li><a href="#Galerry">Galerry</a></li>
+					<li><a href="#Download">Download</a></li>
+					<li><a href="#Buku Tamu">Buku Tamu</a></li>
+			   </ul>
+			
+		</div>
+
+		<!-- bagian header -->
+		<header>
+			<div class="container">
+			    <h1><a href="">Web Profile saya</a></h1>
+			    <ul>
+				    <li><a href="#Home">Home</a></li>
+					<li><a href="#Profil">Profil</a></li>
+					<li><a href="#Galerry">Galerry</a></li>
+					<li><a href="#Download">Download</a></li>
+					<li><a href="#Buku Tamu">Buku Tamu</a></li>
+			   </ul>
+
+		<!-- menu mobile -->
+			   <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+		   </div>
+		</header>
+
+		<!--- bagian banner -->
+		<section class="banner">
+			<div class="container">
+				<div class="banner-left">
+					<img src="img/jon.jpeg" width="80px" height="100px">
+					<h2>haii...<br>
+						Saya adalah seorang Mahasiswa di AMIK MBP Medan <span class="efek-ngetik"></span></h2>
+						<p>Selamat datang di web profile saya!</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian Profil -->
+		<center>
+			<section id="Profil">
+			<div class="container">
+				<h3>Profil</h3>
+		</center>
+		<center>
+		<p>NAMA: JONROIDO LINGGA</p>
+		<P>NPM : 19320030</P>
+		<P>TEMPAT TANGGAL LAHIR : Simpang haranggaol/15-02-2002</P>
+		<p>ALAMAT : jln,jamin ginting padang bulan</p>
+		<p>HOBBY : Menjelajah Alam</p>
+		</center>
+			</div>
+		</section>
+
+		<!-- bagian Galerry -->
+		<center>
+			<section id="Galerry">
+			<div class="container">
+				<h3>Galerry</h3>
+		</center>
+		<center>
+			<img src="img/lingga.jpeg">
+			<img src="img/bana.jpeg">
+			<img src="img/lama.jpeg">
+		</center>
+		    </div>
+		</section>
+
+		<!-- bagian Download -->
+		<center><section id="Download">
+			<div class="container">
+				<h3>Download</h3>
+			</div>
+		</section></center>
+		<center>
+	    <p>Click on the image to download it:<p>
+<a href="/images/lama.jpeg" download>
+  <img src="/images/lama.jpg" alt="lama" width="104" height="142">
+</a>
+
+<p><b>Note:</b> The download attribute is not supported in IE or Edge (prior version 18), or in Safari (prior version 10.1).</p>
+		</center>
+
+		<!-- Buku Tamu -->
+		<center><section id="Buku Tamu">
+			<div class="container">
+				<h3>Buku Tamu</h3>
+			</div>
+		</section></center>
+		<center>
+		<div id="container">
+		<p>Silahkan isi buku tamu di bawah ini untuk meninggalkan pesan Anda!</p>
+		<form action="" method="post">
+			<p><b>Nama Lengkap :</b><br><input type="text" name="nama" placeholder="Fatoni Arif" required /></p>
+			<p><b>Email :</b><br><input type="text" name="email" placeholder="fatoni@tutorialweb.net" required /></p>
+			<p><b>Website :</b><br><input type="text" name="website" placeholder="http://www.tutorialweb.net" /></p>
+			<p><b>Pesan :</b><br><textarea name="pesan" rows="5" cols="50" placeholder="Hy, saya sangat senang bisa berkunjung" required></textarea></p>
+			<p><input type="submit" name="go" value="Kirim" /> <input type="reset" name="del" value="Hapus" /></p>
+			</center>
+		</form>
+	</div>
+
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
